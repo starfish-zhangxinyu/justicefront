@@ -1,0 +1,172 @@
+{
+  "majorType":[
+    {"value":"法医临床鉴定","label":"法医临床鉴定"},
+    {"value":"法医病理鉴定","label":"法医病理鉴定"},
+    {"value":"法医毒物鉴定","label":"法医毒物鉴定"},
+    {"value":"法医物证鉴定","label":"法医物证鉴定"},
+    {"value":"车辆痕迹鉴定","label":"车辆痕迹鉴定"},
+    {"value":"文书司法鉴定","label":"文书司法鉴定"},
+    {"value":"痕迹司法鉴定","label":"痕迹司法鉴定"},
+    {"value":"法医毒物司法鉴定","label":"法医毒物司法鉴定"}
+  ],
+  "clientType":[
+    {"label":"单位"},
+    {"label":"个人"}
+  ],
+  "history":[
+    {"label":"有"},
+    {"label":"无"}
+  ],
+  "person":[
+    {"value":"联系人1","label":"联系人1"},
+    {"value":"联系人2","label":"联系人2"}
+  ],
+  "isavoid":[
+    {"label":"有"},
+    {"label":"无"}
+  ],
+  "casetype":[
+    {"value":"一般案件","label":"一般案件"},
+    {"value":"疑难案件","label":"疑难案件"},
+    {"value":"法院案件","label":"法院案件"},
+    {"value":"CNAS案件/CMA案件","label":"CNAS案件/CMA案件"}
+  ],
+  "acceptPlace":[
+    {"value":"中心","label":"中心"},
+    {"value":"乐山","label":"乐山"},
+    {"value":"仁寿","label":"仁寿"}
+  ],
+  "caseMark":[
+    {"value":"临鉴字","label":"临鉴字"},
+    {"value":"临检字","label":"临检字"},
+    {"value":"临保字","label":"临保字"}
+  ],
+  "caseNum":[
+    {"value":"自动生成","label":"自动生成"},
+    {"value":"使用空号","label":"使用空号"},
+    {"value":"手动编号","label":"手动编号"}
+  ],
+  "assistPerson":[
+    {"value":"小李","label":"小李"},
+    {"value":"小王","label":"小王"},
+    {"value":"小华","label":"小华"}
+  ],
+  "inspectionStandardOptions":[
+    {"value":"标准1","label":"标准1"},
+    {"value":"标准2","label":"标准2"},
+    {"value":"标准3","label":"标准3"}
+  ],
+  "vehicleTypeOptions":[
+    { "value": "小型汽车", "label": "小型汽车"},
+    {"value": "货车/特种车辆/大型汽车", "label": "货车/特种车辆/大型汽车"},
+    {"value":  "电动车", "label": "电动车"},
+    {"value": "摩托车", "label": "摩托车"},
+    {"value": "自行车", "label": "自行车"}
+  ],
+  "nationOptions":[
+    {"value": "汉族", "label": "汉族"}
+  ],
+  "sex":[
+    {"value": "男", "label": "男"},
+    {"value": "女", "label": "女"}
+  ],
+  "multipleselect":[
+    { "command": "1号", "value": "1号" },
+    { "command": "2号", "value": "2号" },
+    { "command": "3号", "value": "3号" },
+    { "command": "4号", "value": "4号" },
+    { "command": "5号", "value": "5号" },
+    { "command": "6号", "value": "6号" }
+  ],
+  "disbursement":[
+    {"value": "自取", "label": "自取"},
+    {"value": "邮寄", "label": "邮寄"},
+    {"value": "送达", "label": "送达"}
+  ],
+  "evidence":[
+    {"name": "凭合同副本", "label": "凭合同副本"},
+    {"name": "票据", "label": "票据"},
+    {"name": "身份证", "label": "身份证"}
+  ],
+  "columns":[
+    {"label":"委托方","prop":"id"},
+    {"label":"联系人","prop":"address"},
+    {"label":"联系电话","prop":"address"},
+    {"label":"案件编号","prop":"address"},
+    {"label":"鉴定对象","prop":"address"},
+    {"label":"专业类别","prop":"address"},
+    {"label":"毒物鉴定结果","prop":"address"},
+    {"label":"委托日期","prop":"address"},
+    {"label":"受理日期","prop":"address"},
+    {"label":"出案日期","prop":"address"},
+    {"label":"发放日期","prop":"address"},
+    {"label":"鉴定助理","prop":"address"},
+    {"label":"第一鉴定人","prop":"address"},
+    {"label":"第二鉴定人","prop":"address"},
+    {"label":"第三鉴定人","prop":"address"},
+    {"label":"授权人签字","prop":"address"},
+    {"label":"登记人","prop":"address"},
+    {"label":"登记日期","prop":"address"},
+    {"label":"状态","prop":"address"},
+    {"label":"材料齐全","prop":"address"},
+    {"label":"合同金额","prop":"address"},
+    {"label":"退费金额","prop":"address"},
+    {"label":"合同金额","prop":"address"},
+    {"label":"状态","prop":"address"},
+    {"label":"应收","prop":"address"},
+    {"label":"已收","prop":"address"},
+    {"label":"待收","prop":"address"},
+    {"label":"开票金额","prop":"address"}
+
+  ],
+  "caselist":[
+    {"id":"1","address":"1"},
+    {"id":"2","address":"2"},
+    {"id":"3","address":"3"},
+    {"id":"4","address":"4"},
+    {"id":"5","address":"5"},
+    {"id":"6","address":"6"},
+    {"id":"7","address":"7"},
+    {"id":"8","address":"8"},
+    {"id":"9","address":"9"},
+    {"id":"10","address":"10"},
+    {"id":"11","address":"11"},
+    {"id":"12","address":"12"},
+    {"id":"13","address":"13"},
+    {"id":"14","address":"14"},
+    {"id":"15","address":"15"}
+  ],
+  "materialsType":[
+    { "value": "资料", "label": "资料"},
+    {"value": "样本", "label": "样本"},
+    {"value":  "检材", "label": "检材"},
+    {"value": "照片", "label": "照片"}
+  ],
+  "materialsSize":[
+    { "value": "份", "label": "份"},
+    {"value": "页", "label": "页"},
+    {"value":  "张", "label": "张"},
+    {"value": "个", "label": "个"},
+    { "value": "ml", "label": "ml"},
+    {"value": "支", "label": "支"},
+    {"value":  "具", "label": "具"},
+    {"value": "克", "label": "克"}
+  ],
+  "materialsNature":[
+    { "value": "原件", "label": "原件"},
+    {"value": "复印件", "label": "复印件"},
+    {"value":  "复制件", "label": "复制件"},
+    {"value": "照片", "label": "照片"},
+    { "value": "生物", "label": "生物"},
+    {"value": "影印件", "label": "影印件"},
+    {"value":  "拷贝件", "label": "拷贝件"},
+    {"value": "尸体", "label": "尸体"}
+  ],
+  "processMode":[
+    { "value": "存档", "label": "存档"},
+    {"value": "销毁", "label": "销毁"},
+    {"value":  "退还", "label": "退还"}
+  ]
+}
+
+

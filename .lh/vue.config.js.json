@@ -1,0 +1,18 @@
+{
+    "sourceFile": "vue.config.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1630846895650,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1630846895650,
+            "name": "Commit-0",
+            "content": "/*\r\n * @Description: <page></page>页面\r\n * @Author: Simon Shen\r\n * @Date: 2021-01-05 11:24:33\r\n * @LastEditors: Please set LastEditors\r\n * @LastEditTime: 2021-06-15 09:26:58\r\n */\r\nconst webpack = require('webpack')\r\nconst environment = require('./build/environment')\r\n\r\nmodule.exports = {\r\n    configureWebpack: {\r\n        plugins: [\r\n            new webpack.DefinePlugin({\r\n                'process.env.STAGE': JSON.stringify(environment.stage),\r\n                'process.env.LOCAL_URL': JSON.stringify(environment.localUrl)\r\n            })\r\n        ]\r\n    },\r\n    devServer: {\r\n        public: 'local.test.com',\r\n        port: 88,\r\n        proxy: {\r\n            '/api': {\r\n                target: 'http://test.w110119.f3322.net:10446',\r\n                changeOrigin: true,\r\n                ws: true\r\n            },\r\n            '/socket': {\r\n                target: 'http://test.w110119.f3322.net:10446', //开发\r\n                changeOrigin: true,\r\n                ws: true\r\n            }\r\n        }\r\n\r\n    }\r\n};"
+        }
+    ]
+}

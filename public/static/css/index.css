@@ -1,0 +1,180 @@
+.el-table .hovered-row {
+    background: #f5f7fa !important;
+}
+
+#case-quantity .el-form-item__label {
+    white-space: nowrap;
+}
+
+.el-menu-item-group__title {
+    padding: 0 !important;
+}
+
+.menu-header li {
+    cursor: default !important;
+    padding-left: 10px;
+}
+
+.menu-header li:hover {
+    background: #fff;
+}
+
+.el-page-header {
+    padding-bottom: 10px;
+}
+
+.marBot12 {
+    margin-bottom: 14px !important;
+}
+
+.marBot6 {
+    margin-bottom: 6px !important;
+}
+
+.marBot10 {
+    margin-bottom: 10px !important;
+}
+
+#testStandard .el-select .el-tag__close.el-icon-close {
+    right: 0;
+}
+
+.tooltipDemo1 {
+    background: #68a2d5;
+    height: 36px;
+    width: 48px;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.tooltipDemo1 span {
+    display: block;
+    color: #fff;
+    line-height: 12px;
+    font-size: 12px;
+}
+
+.w100,
+.w100 .el-upload {
+    width: 100% !important;
+}
+
+#case-list .el-table td .cell span {
+    padding: 0 !important;
+}
+
+.customSlecte .el-select__tags-text {
+    max-width: 150px;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.customSlecte .el-tag__close {
+    top: -6px !important;
+}
+
+.inputSty input {
+    border: none !important;
+    padding-left: 0 !important;
+}
+
+.inputSty {
+    border: none !important;
+    border-bottom: 1px solid #EEEEEE !important;
+    border-radius: 0!important;
+}
+
+.pad0 input {
+    padding: 0 !important;
+}
+
+.w300{
+    width: 300px !important;
+}
+.w215 {
+    width: 215px !important;
+}
+
+.w200 {
+    width: 200px !important;
+}
+
+.margin0 {
+    margin: 0 !important;
+}
+
+.txtColor333 {
+    color: #333;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.el-table__row .el-form-item {
+    margin-bottom: 0 !important;
+}
+
+#container_left {
+    padding-bottom: 20px;
+}
+
+.normalA {
+    text-decoration: none;
+    font-size: 14px;
+    color: #606266;
+}
+
+.el-form-item__label {
+    white-space: nowrap;
+}
+
+#moreSearch .el-col {
+    height: 51px;
+}
+
+
+/* 滚动条样式重写 */
+
+.cell {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-button {
+    display: none;
+}
+
+::-webkit-scrollbar-track {
+    display: none
+}
+
+::-webkit-scrollbar-thumb {
+    width: 7px;
+    background: rgba(144, 147, 153, .6);
+    border-radius: 50px;
+}
+
+.noneBack,
+.noneBack .el-tree-node__content {
+    background: none !important;
+}
+
+.pagination-footer{
+    margin-top: 10px!important;
+    margin-bottom: 10px!important;
+}
+
+.el-divider__text, .el-link{
+    font-size: 12px;
+}

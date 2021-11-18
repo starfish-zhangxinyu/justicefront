@@ -1,0 +1,41 @@
+import { debounce } from "@/utils/debounce";
+export let myMixin = {
+    data() {
+       return {
+           tableHeight: '500px',
+           StatTableHeight: '500px',
+           handleFileDebounce: null,
+           handleImgDebounce: null,
+       }
+    },
+    created() {
+        this.StatTableHeight =  window.innerHeight - 317 + 'px';
+        this.tableHeight = window.innerHeight - 377 + 'px';
+        /*防抖函数*/
+        //附件上传时
+        this.handleFileDebounce = debounce(
+            () => {
+                this.$message.error("请不要上传图片文件!");
+            },
+            100,
+            true
+        );
+        //图片上传时
+        this.handleImgDebounce = debounce(
+            () => {
+                this.$message.error("请上传图片文件!");
+            },
+            100,
+            true
+        );
+    },
+    methods: {
+        handleSelectionChange(val) {
+            //选中的计划
+            this.selectRows = val.reduce((previousValue, currentValue) => {
+                return previousValue.concat(currentValue);
+            },[]);
+            console.log(this.selectRows, "选择的计划");
+        },
+    }
+}
